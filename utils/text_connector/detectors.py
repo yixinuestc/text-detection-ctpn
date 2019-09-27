@@ -1,6 +1,8 @@
 # coding:utf-8
+import sys
+sys.path.append('D:/GitHub/MyGitHub/text-detection-ctpn/utils/bbox')
 import numpy as np
-from utils.bbox.nms import nms
+from nms import nms
 
 from .text_connect_cfg import Config as TextLineCfg
 from .text_proposal_connector import TextProposalConnector

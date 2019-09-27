@@ -1,6 +1,8 @@
 # -*- coding:utf-8 -*-
+import sys
+sys.path.append('D:/GitHub/MyGitHub/text-detection-ctpn/utils/bbox')
 import numpy as np
-from utils.bbox.nms import nms
+from nms import nms
 
 from utils.bbox.bbox_transform import bbox_transform_inv, clip_boxes
 from utils.rpn_msr.config import Config as cfg

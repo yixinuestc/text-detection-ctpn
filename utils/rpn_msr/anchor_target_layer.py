@@ -1,7 +1,9 @@
 # -*- coding:utf-8 -*-
+import  sys
+sys.path.append('D:/GitHub/MyGitHub/text-detection-ctpn/utils/bbox')
 import numpy as np
 import numpy.random as npr
-from utils.bbox.bbox import bbox_overlaps
+from bbox import bbox_overlaps
 
 from utils.bbox.bbox_transform import bbox_transform
 from utils.rpn_msr.config import Config as cfg

@@ -1,3 +1,3 @@
 python setup.py install
-mv build/*/*.so ./
-rm -rf build/
+mv build/*/*/*.lib ./
+#rm -rf build/
